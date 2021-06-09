@@ -13,8 +13,14 @@
   "license": "MIT",
   "author": "kurone-kito <krone@kit.black> (https://kit.black/)",
   "repository": "github:kurone-kito/horaro-servisto",
-  "scripts": {},
-  "devDependencies": {},
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "husky": "^6.0.0"
+  },
   "engines": {
     "node": ">=14"
   },
