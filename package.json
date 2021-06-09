@@ -1,0 +1,22 @@
+{
+  "name": "horaro-servisto",
+  "version": "0.1.0",
+  "description": "It's a driver app that controls my servant of the calendar.",
+  "keywords": [
+    "calendar",
+    "schedule"
+  ],
+  "homepage": "https://github.com/kurone-kito/horaro-servisto#README",
+  "bugs": {
+    "url": "https://github.com/kurone-kito/horaro-servisto/issues"
+  },
+  "license": "MIT",
+  "author": "kurone-kito <krone@kit.black> (https://kit.black/)",
+  "repository": "github:kurone-kito/horaro-servisto",
+  "scripts": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14"
+  },
+  "private": true
+}
