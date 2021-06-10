@@ -3,13 +3,14 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "incremental": true,
-    "lib": ["ESNext"],
+    "lib": ["DOM", "ESNext"],
     "module": "commonjs",
     "moduleResolution": "node",
     "noEmit": true,
     "resolveJsonModule": true,
     "sourceMap": true,
     "strict": true,
-    "target": "ESNext"
+    "target": "ESNext",
+    "types": ["cypress"]
   }
 }
