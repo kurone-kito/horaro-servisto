@@ -1,6 +1,16 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/linux,macos,node,sublimetext,vim,visualstudiocode,windows
-# Edit at https://www.toptal.com/developers/gitignore?templates=linux,macos,node,sublimetext,vim,visualstudiocode,windows
+# Created by https://www.toptal.com/developers/gitignore/api/cypressio,linux,macos,node,sublimetext,vim,visualstudiocode,windows
+# Edit at https://www.toptal.com/developers/gitignore?templates=cypressio,linux,macos,node,sublimetext,vim,visualstudiocode,windows
+
+### CypressIO ###
+# gitignore template for the CypressIO, browser test framework
+# website: https://www.cypress.io/
+
+cypress/downloads/*
+cypress/results/*
+cypress/reports/*
+cypress/screenshots/*
+cypress/videos/*
 
 ### Linux ###
 *~
@@ -262,4 +272,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/linux,macos,node,sublimetext,vim,visualstudiocode,windows
+# End of https://www.toptal.com/developers/gitignore/api/cypressio,linux,macos,node,sublimetext,vim,visualstudiocode,windows

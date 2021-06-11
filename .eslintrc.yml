@@ -1,4 +1,5 @@
 env:
+  cypress/globals: true
   es6: true
   es2020: true
 extends:
@@ -9,18 +10,25 @@ extends:
   - plugin:import/typescript
   - plugin:@typescript-eslint/recommended
   - plugin:@typescript-eslint/eslint-recommended
+  - plugin:cypress/recommended
   - airbnb-typescript/base
   - plugin:prettier/recommended
-parser: "@typescript-eslint/parser"
+parser: '@typescript-eslint/parser'
 parserOptions:
   ecmaVersion: 2020
   project: ./tsconfig.json
+plugins:
+  - cypress
 root: true
 rules:
   import/extensions:
     - error
     - ignorePackages
     - ts: never
+  import/no-extraneous-dependencies:
+    - error
+    - devDependencies:
+        - 'cypress/support/*.?s'
   import/order: warn
   sort-imports:
     - warn

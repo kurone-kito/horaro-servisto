@@ -14,18 +14,23 @@
   "author": "kurone-kito <krone@kit.black> (https://kit.black/)",
   "repository": "github:kurone-kito/horaro-servisto",
   "scripts": {
+    "fetch": "cypress run --headless --spec \"cypress/integration/servisto.spec.ts\"",
     "lint": "eslint .",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "start": "cypress open"
   },
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
     "@typescript-eslint/eslint-plugin": "^4.26.1",
     "@typescript-eslint/parser": "^4.26.1",
+    "cypress": "^7.5.0",
+    "cypress-file-upload": "^5.0.7",
     "eslint": "^7.28.0",
     "eslint-config-airbnb-typescript": "^12.3.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-import-resolver-typescript": "^2.4.0",
+    "eslint-plugin-cypress": "^2.11.3",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-prettier": "^3.4.0",
     "husky": "^6.0.0",
